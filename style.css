@@ -1,0 +1,229 @@
+@font-face {
+    font-family: '3976';
+    src: url('fonts/3976.eot');
+    src: url('fonts/3976.eot') format('embedded-opentype'),
+         url('fonts/3976.woff2') format('woff2'),
+         url('fonts/3976.woff') format('woff'),
+         url('fonts/3976.ttf') format('truetype'),
+         url('fonts/3976.svg#3976') format('svg');
+}
+
+@font-face {
+    font-family: '396bold9';
+    src: url('fonts/396bold9.eot');
+    src: url('fonts/396bold9.eot') format('embedded-opentype'),
+         url('fonts/396bold9.woff2') format('woff2'),
+         url('fonts/396bold9.woff') format('woff'),
+         url('fonts/396bold9.ttf') format('truetype'),
+         url('fonts/396bold9.svg#396bold9') format('svg');
+}
+
+@font-face {
+    font-family: '3974med';
+    src: url('fonts/3974med.eot');
+    src: url('fonts/3974med.eot') format('embedded-opentype'),
+         url('fonts/3974med.woff2') format('woff2'),
+         url('fonts/3974med.woff') format('woff'),
+         url('fonts/3974med.ttf') format('truetype'),
+         url('fonts/3974med.svg#3974med') format('svg');
+}
+
+section#main{
+	background:url(../img/main-bg.jpg);
+	height:950px;
+	padding-top:20px;
+}
+
+.phone h3{
+	color:white;
+	font-family:'3974med';
+}
+.phone p{
+	color:white;
+	font-family:'3976';
+}
+
+img#suka-logo{
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: 45px;
+}
+
+img#logo-revizor{
+	width:230px;
+}
+.social{
+	padding-left:12px;
+	padding-top:5px;
+}
+
+.sos{
+  margin-right: 15px;
+}
+/*ниже главное меню*/
+.header h1{
+	color:#fff;
+	font-family:'396bold9';
+	text-transform:uppercase;
+	margin-top:90px;
+  line-height: 46px;
+}
+/*конец главное меню*/
+
+/*ниже форма брони*/
+.header-form h2{
+	color:#93023c;
+	font-family:'396bold9';
+	margin-bottom:30px;
+  text-transform: uppercase;
+}
+.main-form{
+	background-color:rgba(255,255,255,0.5);
+	padding-bottom:30px;
+	margin-top:90px;
+}
+.main-form input{
+	width:80%;
+	padding:10px;
+	border-radius:5px;
+	border:none;
+	/*margin-top:25px;*/
+}
+.main-btn{
+	background:#93023c;
+	border:none;
+	border-bottom:3px solid #4d0219;
+	border-radius:5px;
+	color:#fff;
+	font-family:'3974med';
+	letter-spacing:1px;
+	/*margin-top:25px;
+	/*width:80%;*/
+	padding:10px 40px;
+
+}
+
+.main-btn:hover{
+	background:#b50376;
+	border-bottom:1px solid #4d0219;
+	margin-top:2px; /*последние два значения как бы вдавливают кнопку при нажатии*/
+}
+
+/*==========================   конец брони     ======================*/
+
+/*==========================   ниже ячейки     ======================*/
+
+
+section#eggs{
+	padding-top:10px;
+}
+
+.header-eggs h2{
+	color:#363636;
+	font-size:28px;
+	margin-bottom:30px;
+	font-family:'396bold9';
+}
+.icons img{
+	width:100px;
+}
+.icons{
+	margin-top:10px;
+}
+
+hr{
+	margin:3px auto 29px auto;
+	border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+/*==========================   ячейки конец    ======================*/
+
+
+/*==========================   ниже цены     ======================*/
+section#price{
+	padding-bottom:25px
+}
+
+.container h2{
+	font-family:'396bold9';
+	font-size:28px;
+}
+
+.header{
+	margin-bottom:30px;
+
+}
+.card{
+	border:3px solid #9b035c;
+	border-radius:7px;
+	padding-bottom:20px;
+	/*height:450px;*/
+}
+
+.card h3{
+	font-family:'3974med';
+	font-size:22px;
+}
+
+.card h4{
+	font-family:'3976';
+	font-size:18px;
+}
+.card img{
+	width:250px;
+}
+.card ul li {
+	list-style-image:url(../img/times.png);
+	font-family:'3976';
+	font-size:16px;
+}
+
+.card button{
+	background:#93023c;
+	border:none;
+	border-bottom:3px solid #4d0219;
+	border-radius:5px;
+	color:#fff;
+	font-family:'3974med';
+	letter-spacing:1px;
+	/*margin-top:25px;
+	/*width:80%;*/
+	padding:12px 40px;
+}
+
+.card button:hover{
+	background:#b50376;
+	border-bottom:1px solid #4d0219;
+	margin-top:2px;
+}
+
+section#end{
+  background-color: #232323;
+  margin-top: 50px;
+}
+.footer{
+  height: 250px;
+  background-color: #232323;
+  margin-top: 50px;
+  color: #fff;
+}
+.second{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  color: #fff;
+  font-size: 18px;
+}
+.second:hover{
+  color: #E9EB63;
+}
+img.bottom{
+  width: 120px;
+  margin-bottom: 25px;
+}
